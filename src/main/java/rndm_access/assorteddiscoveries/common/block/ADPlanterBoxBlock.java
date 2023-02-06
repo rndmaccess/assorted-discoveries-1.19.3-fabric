@@ -103,40 +103,32 @@ public class ADPlanterBoxBlock extends Block {
     @Override
     @SuppressWarnings("deprecation")
     public BlockState rotate(BlockState state, BlockRotation rotation) {
-        BlockState rotatedState = this.getDefaultState();
-        boolean hasNorthBorder = state.get(NORTH);
-        boolean hasSouthBorder = state.get(SOUTH);
-        boolean hasWestBorder = state.get(WEST);
-        boolean hasEastBorder = state.get(EAST);
-        boolean hasNoBorders = hasNorthBorder && hasSouthBorder && hasWestBorder && hasEastBorder;
-        boolean hasAllBorders = !hasNorthBorder && !hasSouthBorder && !hasWestBorder && !hasEastBorder;
-
-        // If the block is surrounded by borders or has no borders. Then we don't have to rotate it.
-        if (!(hasAllBorders || hasNoBorders)) {
-            return state;
-        }
+        boolean north = state.get(NORTH);
+        boolean south = state.get(SOUTH);
+        boolean west = state.get(WEST);
+        boolean east = state.get(EAST);
 
         switch (rotation) {
             case CLOCKWISE_180 -> {
-                return rotatedState
-                        .with(NORTH, hasSouthBorder)
-                        .with(SOUTH, hasNorthBorder)
-                        .with(WEST, hasEastBorder)
-                        .with(EAST, hasWestBorder);
+                return state
+                        .with(SOUTH, north)
+                        .with(NORTH, south)
+                        .with(EAST, west)
+                        .with(WEST, east);
             }
             case CLOCKWISE_90 -> {
-                return rotatedState
-                        .with(WEST, hasSouthBorder)
-                        .with(EAST, hasNorthBorder)
-                        .with(SOUTH, hasEastBorder)
-                        .with(NORTH, hasWestBorder);
+                return state
+                        .with(EAST, north)
+                        .with(WEST, south)
+                        .with(NORTH, west)
+                        .with(SOUTH, east);
             }
             case COUNTERCLOCKWISE_90 -> {
-                return rotatedState
-                        .with(EAST, hasSouthBorder)
-                        .with(WEST, hasNorthBorder)
-                        .with(NORTH, hasEastBorder)
-                        .with(SOUTH, hasWestBorder);
+                return state
+                        .with(WEST, north)
+                        .with(EAST, south)
+                        .with(SOUTH, west)
+                        .with(NORTH, east);
             }
             default -> {
                 return state;
