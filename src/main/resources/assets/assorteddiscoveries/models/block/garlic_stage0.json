@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "assorteddiscoveries:block/garlic_stage0"
+  }
+}

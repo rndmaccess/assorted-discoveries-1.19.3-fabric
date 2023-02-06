@@ -1,0 +1,7 @@
+{
+  "parent": "assorteddiscoveries:block/template_bamboo_fence_gate_open",
+  "textures": {
+    "side": "assorteddiscoveries:block/fresh_bamboo_fence_side",
+	"bamboo_gate_details": "assorteddiscoveries:block/fresh_bamboo_fence_gate"
+  }
+}

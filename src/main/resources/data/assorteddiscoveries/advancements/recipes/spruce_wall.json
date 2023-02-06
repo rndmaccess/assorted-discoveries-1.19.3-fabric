@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:spruce_wall"
+    ]
+  },
+  "criteria": {
+    "has_natural_spruce_logs": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:natural_spruce_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:spruce_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_natural_spruce_logs",
+      "has_the_recipe"
+    ]
+  ]
+}

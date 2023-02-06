@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "assorteddiscoveries:chiseled_smoky_quartz_block"
+      },
+      {
+        "item": "assorteddiscoveries:smoky_quartz_block"
+      },
+      {
+        "item": "assorteddiscoveries:smoky_quartz_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "assorteddiscoveries:smoky_quartz_slab",
+    "count": 6
+  }
+}

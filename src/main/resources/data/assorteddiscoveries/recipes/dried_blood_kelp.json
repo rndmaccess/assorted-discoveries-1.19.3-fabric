@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "assorteddiscoveries:dried_blood_kelp_block"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:dried_blood_kelp",
+    "count": 9
+  }
+}

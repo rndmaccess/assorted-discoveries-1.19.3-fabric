@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "BIB",
+    "PPP"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    "I": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:pig_plush"
+  }
+}

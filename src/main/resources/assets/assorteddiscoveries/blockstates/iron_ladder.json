@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assorteddiscoveries:block/iron_ladder"
+    },
+    "facing=east": {
+      "model": "assorteddiscoveries:block/iron_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "assorteddiscoveries:block/iron_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assorteddiscoveries:block/iron_ladder",
+      "y": 270
+    }
+  }
+}

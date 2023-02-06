@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "assorteddiscoveries:block/twisted_nether_bricks",
+    "top": "assorteddiscoveries:block/twisted_nether_bricks",
+    "side": "assorteddiscoveries:block/twisted_nether_bricks"
+  }
+}

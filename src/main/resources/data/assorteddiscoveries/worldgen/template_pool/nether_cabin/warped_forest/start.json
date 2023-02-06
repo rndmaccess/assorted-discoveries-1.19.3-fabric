@@ -1,0 +1,15 @@
+{
+  "name": "assorteddiscoveries:nether_cabin/warped_forest/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "assorteddiscoveries:nether_cabin/warped_forest/warped_forest_cabin",
+        "processors": "assorteddiscoveries:twisted_blackstone_bricks_70_percent",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

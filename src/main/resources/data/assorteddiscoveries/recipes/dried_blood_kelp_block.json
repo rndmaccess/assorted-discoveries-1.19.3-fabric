@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:dried_blood_kelp"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:dried_blood_kelp_block"
+  }
+}

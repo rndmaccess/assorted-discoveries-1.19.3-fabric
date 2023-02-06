@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bamboo_fence_gate",
+  "pattern": [
+    "#X#",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "item": "assorteddiscoveries:dried_bamboo"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:dried_bamboo_fence_gate"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:mossy_bauxite_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:mossy_bauxite_brick_stairs",
+    "count": 4
+  }
+}

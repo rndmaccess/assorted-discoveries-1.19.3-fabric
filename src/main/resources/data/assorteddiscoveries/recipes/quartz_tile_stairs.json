@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "assorteddiscoveries:quartz_tiles"
+      }
+    ]
+  },
+  "result": {
+    "item": "assorteddiscoveries:quartz_tile_stairs",
+    "count": 4
+  }
+}

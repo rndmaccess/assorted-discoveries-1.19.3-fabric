@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:snow_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:snow_brick_stairs",
+    "count": 4
+  }
+}

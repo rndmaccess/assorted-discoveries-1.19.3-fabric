@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_wall",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:natural_warped_stems"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:warped_wall",
+    "count": 6
+  }
+}

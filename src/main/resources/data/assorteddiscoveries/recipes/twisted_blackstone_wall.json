@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:twisted_blackstone"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:twisted_blackstone_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:tuff_bricks"
+  },
+  "result": "assorteddiscoveries:tuff_brick_slab",
+  "count": 2
+}

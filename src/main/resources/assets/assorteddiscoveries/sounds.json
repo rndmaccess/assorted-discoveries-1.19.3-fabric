@@ -1,0 +1,20 @@
+{
+  "block.mushroom_bounce": {
+    "category": "blocks",
+    "subtitle": "Mushroom bounces",
+    "sounds": [
+      {
+        "name": "assorteddiscoveries:block/mushroom_bounce", "stream": false
+      }
+    ]
+  },
+  "ui.woodcutter.take_result": {
+    "category": "blocks",
+    "subtitle": "Woodcutter cuts",
+    "sounds": [
+      {
+        "name": "assorteddiscoveries:ui/woodcutter/take_result", "stream": false
+      }
+    ]
+  }
+}

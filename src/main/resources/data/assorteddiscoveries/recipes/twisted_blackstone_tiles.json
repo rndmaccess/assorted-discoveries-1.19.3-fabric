@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:warped_vegetation"
+    },
+    {
+      "item": "assorteddiscoveries:blackstone_tiles"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:twisted_blackstone_tiles"
+  }
+}

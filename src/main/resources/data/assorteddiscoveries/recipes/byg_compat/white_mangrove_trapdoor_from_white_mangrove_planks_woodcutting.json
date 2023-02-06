@@ -1,0 +1,16 @@
+{
+  "type": "assorteddiscoveries:woodcutting",
+  "ingredient": {
+    "item": "byg:white_mangrove_planks"
+  },
+  "result": "byg:white_mangrove_trapdoor",
+  "count": 1,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+    }
+  ]
+}

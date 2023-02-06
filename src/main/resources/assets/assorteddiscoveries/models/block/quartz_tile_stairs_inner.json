@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "assorteddiscoveries:block/quartz_tiles",
+    "top": "assorteddiscoveries:block/quartz_tiles",
+    "side": "assorteddiscoveries:block/quartz_tiles"
+  }
+}

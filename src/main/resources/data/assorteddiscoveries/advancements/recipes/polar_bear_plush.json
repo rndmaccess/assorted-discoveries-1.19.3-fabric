@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:polar_bear_plush"
+    ]
+  },
+  "criteria": {
+    "has_snow_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snow_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:polar_bear_plush"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_snow_block",
+      "has_the_recipe"
+    ]
+  ]
+}

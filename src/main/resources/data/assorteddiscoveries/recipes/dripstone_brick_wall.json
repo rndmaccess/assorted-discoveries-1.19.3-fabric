@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:dripstone_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:dripstone_brick_wall",
+    "count": 6
+  }
+}

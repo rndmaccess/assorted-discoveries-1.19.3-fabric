@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:twisted_blackstone_tiles"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:twisted_blackstone_tile_stairs",
+    "count": 4
+  }
+}

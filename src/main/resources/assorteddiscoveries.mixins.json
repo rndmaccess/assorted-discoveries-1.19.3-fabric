@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rndm_access.assorteddiscoveries.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ADBoneMealItemMixin",
+    "ADCropBlockMixin",
+    "ADEntityAccessor",
+    "ADFungusBlockMixin",
+    "ADLivingEntityMixin",
+    "ADNetherWartBlockMixin",
+    "ADPlantBlockMixin",
+    "ADRootsBlockMixin",
+    "ADShovelItemMixin",
+    "ADSnowyBlockMixin",
+    "ADSpreadableBlockMixin",
+    "ADSproutsBlockMixin",
+    "ADTrunkPlacerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

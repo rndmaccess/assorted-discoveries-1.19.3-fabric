@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sheep_plush",
+  "pattern": [
+    "MMM",
+    "BIB",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:magenta_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:magenta_sheep_plush"
+  }
+}

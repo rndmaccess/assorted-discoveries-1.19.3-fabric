@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "GIG",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "G": {
+      "item": "minecraft:gray_wool"
+    },
+    "I": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:skeleton_plush"
+  }
+}

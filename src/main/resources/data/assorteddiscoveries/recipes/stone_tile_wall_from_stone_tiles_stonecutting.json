@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:stone_tiles"
+  },
+  "result": "assorteddiscoveries:stone_tile_wall",
+  "count": 1
+}

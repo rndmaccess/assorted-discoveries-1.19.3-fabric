@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "assorteddiscoveries:block/bauxite",
+    "top": "assorteddiscoveries:block/bauxite",
+    "side": "assorteddiscoveries:block/bauxite"
+  }
+}

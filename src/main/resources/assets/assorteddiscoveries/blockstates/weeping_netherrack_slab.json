@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assorteddiscoveries:block/weeping_netherrack_slab"
+    },
+    "type=top": {
+      "model": "assorteddiscoveries:block/weeping_netherrack_slab_top"
+    },
+    "type=double": {
+      "model": "assorteddiscoveries:block/weeping_netherrack"
+    }
+  }
+}

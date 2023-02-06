@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "WIW",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "I": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:allay_plush"
+  }
+}

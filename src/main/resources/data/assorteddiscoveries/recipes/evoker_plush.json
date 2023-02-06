@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "illager_plush",
+  "pattern": [
+    "HHH",
+    "BEB",
+    "BBB"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:evoker_plush"
+  }
+}

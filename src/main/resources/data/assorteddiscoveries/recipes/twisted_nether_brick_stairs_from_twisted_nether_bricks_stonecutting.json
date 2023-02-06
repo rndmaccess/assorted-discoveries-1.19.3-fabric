@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:twisted_nether_bricks"
+  },
+  "result": "assorteddiscoveries:twisted_nether_brick_stairs",
+  "count": 1
+}

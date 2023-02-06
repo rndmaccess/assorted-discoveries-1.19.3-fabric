@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:byg_compat/imparius_stem_from_fungal_imparius_stem_woodcutting"
+    ]
+  },
+  "criteria": {
+    "has_fungal_imparius_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "byg:fungal_imparius_stem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:byg_compat/imparius_stem_from_fungal_imparius_stem_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_fungal_imparius_stem",
+      "has_the_recipe"
+    ]
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+    }
+  ]
+}

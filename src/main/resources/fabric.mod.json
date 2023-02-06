@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "assorteddiscoveries",
+  "version": "${version}",
+
+  "name": "Assorted Discoveries",
+  "description": "Experience Minecraft like never before with new blocks, items, structures, and much much more with Assorted Discoveries!",
+  "authors": [
+    "rndm_access"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/assorted-discoveries",
+    "sources": "https://github.com/rndmaccess/assorted-discoveries-fabric"
+  },
+
+  "license": "MIT",
+  "icon": "assets/assorteddiscoveries/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rndm_access.assorteddiscoveries.common.AssortedDiscoveries"
+    ],
+    "client": [
+      "rndm_access.assorteddiscoveries.client.AssortedDiscoveriesClient"
+    ]
+  },
+  "mixins": [
+    "assorteddiscoveries.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": ">=0.73.2+1.19.3",
+    "minecraft": "1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

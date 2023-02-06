@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "tag": "c:crimson_vegetation"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:weeping_nether_bricks"
+  }
+}

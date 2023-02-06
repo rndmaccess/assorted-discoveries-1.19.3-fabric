@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "assorteddiscoveries:block/weeping_nether_bricks",
+    "top": "assorteddiscoveries:block/weeping_nether_bricks",
+    "side": "assorteddiscoveries:block/weeping_nether_bricks"
+  }
+}

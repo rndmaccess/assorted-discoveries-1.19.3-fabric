@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sheep_plush",
+  "pattern": [
+    "CCC",
+    "BIB",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:cyan_sheep_plush"
+  }
+}

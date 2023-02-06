@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:blood_kelp"
+    },
+    "X": {
+      "item": "assorteddiscoveries:blood_kelp_seed_cluster"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:blood_kelp_lantern"
+  }
+}

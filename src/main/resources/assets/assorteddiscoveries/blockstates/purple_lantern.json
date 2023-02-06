@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "assorteddiscoveries:block/purple_lantern"
+    },
+    "hanging=true": {
+      "model": "assorteddiscoveries:block/purple_lantern_hanging"
+    }
+  }
+}

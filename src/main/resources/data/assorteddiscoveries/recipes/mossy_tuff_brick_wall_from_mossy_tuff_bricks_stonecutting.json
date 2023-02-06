@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:mossy_tuff_bricks"
+  },
+  "result": "assorteddiscoveries:mossy_tuff_brick_wall",
+  "count": 1
+}

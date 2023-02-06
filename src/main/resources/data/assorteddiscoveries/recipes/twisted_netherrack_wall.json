@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:twisted_netherrack"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:twisted_netherrack_wall",
+    "count": 6
+  }
+}

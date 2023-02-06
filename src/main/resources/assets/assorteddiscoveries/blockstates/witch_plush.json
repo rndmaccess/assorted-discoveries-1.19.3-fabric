@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "assorteddiscoveries:block/witch_plush"
+    },
+    "facing=south": {
+      "model": "assorteddiscoveries:block/witch_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "assorteddiscoveries:block/witch_plush",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "assorteddiscoveries:block/witch_plush",
+      "y": 90
+    }
+  }
+}

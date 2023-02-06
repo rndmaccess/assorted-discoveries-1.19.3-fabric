@@ -1,0 +1,8 @@
+{
+  "type": "assorteddiscoveries:woodcutting",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "assorteddiscoveries:acacia_rope_ladder",
+  "count": 1
+}

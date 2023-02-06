@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "assorteddiscoveries:block/weeping_polished_blackstone_bricks"
+  }
+}

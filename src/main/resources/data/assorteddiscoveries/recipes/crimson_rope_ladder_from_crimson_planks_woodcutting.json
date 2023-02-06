@@ -1,0 +1,8 @@
+{
+  "type": "assorteddiscoveries:woodcutting",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": "assorteddiscoveries:crimson_rope_ladder",
+  "count": 1
+}

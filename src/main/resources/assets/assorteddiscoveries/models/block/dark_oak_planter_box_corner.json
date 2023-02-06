@@ -1,0 +1,8 @@
+{
+  "parent": "assorteddiscoveries:block/template_planter_box_corner",
+  "textures": {
+    "material": "block/dark_oak_planks",
+    "log": "block/dark_oak_log",
+    "soil": "block/farmland_moist"
+  }
+}

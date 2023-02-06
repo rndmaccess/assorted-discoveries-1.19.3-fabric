@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "assorteddiscoveries:block/green_onions_stage0"
+    },
+    "age=1": {
+      "model": "assorteddiscoveries:block/green_onions_stage1"
+    },
+    "age=2": {
+      "model": "assorteddiscoveries:block/green_onions_stage2"
+    },
+    "age=3": {
+      "model": "assorteddiscoveries:block/green_onions_stage3"
+    }
+  }
+}

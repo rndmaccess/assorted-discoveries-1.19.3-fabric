@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "villager_plush",
+  "pattern": [
+    "HHH",
+    "HEH",
+    "CIC"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:terracotta"
+    },
+    "C": {
+      "item": "minecraft:brown_wool"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "I": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:plains_villager_plush"
+  }
+}

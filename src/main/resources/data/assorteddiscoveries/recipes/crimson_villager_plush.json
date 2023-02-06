@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "villager_plush",
+  "pattern": [
+    "HHH",
+    "HEH",
+    "CIC"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:terracotta"
+    },
+    "C": {
+      "item": "assorteddiscoveries:maroon_wool"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "I": {
+      "item": "minecraft:crimson_fungus"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:crimson_villager_plush"
+  }
+}

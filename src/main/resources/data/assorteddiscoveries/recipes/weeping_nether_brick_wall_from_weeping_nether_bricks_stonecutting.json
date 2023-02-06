@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:weeping_nether_bricks"
+  },
+  "result": "assorteddiscoveries:weeping_nether_brick_wall",
+  "count": 1
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:calcite_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:calcite_brick_stairs",
+    "count": 4
+  }
+}

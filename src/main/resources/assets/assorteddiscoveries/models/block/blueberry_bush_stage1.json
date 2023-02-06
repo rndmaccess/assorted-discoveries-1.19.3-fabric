@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "assorteddiscoveries:block/blueberry_bush_stage1"
+  }
+}

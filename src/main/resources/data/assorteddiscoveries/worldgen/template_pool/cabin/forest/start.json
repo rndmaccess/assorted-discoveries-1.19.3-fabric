@@ -1,0 +1,15 @@
+{
+  "name": "assorteddiscoveries:cabin/forests/forest/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "assorteddiscoveries:cabin/forest_cabin",
+        "processors": "minecraft:mossify_70_percent",
+        "projection": "rigid"
+      },
+      "weight": 10
+    }
+  ]
+}

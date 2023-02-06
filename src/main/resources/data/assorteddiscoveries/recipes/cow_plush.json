@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "bIb",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "b": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:cow_plush"
+  }
+}

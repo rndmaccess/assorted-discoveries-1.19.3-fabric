@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "assorteddiscoveries:block/maroon_candle_cake"
+    },
+    "lit=true": {
+      "model": "assorteddiscoveries:block/maroon_candle_cake_lit"
+    }
+  }
+}

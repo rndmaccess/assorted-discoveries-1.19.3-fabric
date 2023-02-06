@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assorteddiscoveries:block/grass_slab"
+    },
+    "type=top,snowy=true": {
+      "model": "assorteddiscoveries:block/grass_slab_top_snow"
+    },
+    "type=top,snowy=false": {
+      "model": "assorteddiscoveries:block/grass_slab_top"
+    },
+    "type=double,snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    },
+    "type=double,snowy=false": {
+      "model": "assorteddiscoveries:block/grass_block"
+    }
+  }
+}

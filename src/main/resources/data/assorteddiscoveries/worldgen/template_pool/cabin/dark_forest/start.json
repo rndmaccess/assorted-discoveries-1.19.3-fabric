@@ -1,0 +1,15 @@
+{
+  "name": "assorteddiscoveries:cabin/forests/dark_forest/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "assorteddiscoveries:cabin/dark_forest_cabin",
+        "processors": "assorteddiscoveries:mossify_stone_bricks_70_percent",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

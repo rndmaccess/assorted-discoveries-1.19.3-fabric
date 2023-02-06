@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flowering=false": {
+      "model": "assorteddiscoveries:block/jungle_snare_plant"
+    },
+	"flowering=true": {
+	  "model": "assorteddiscoveries:block/jungle_snare_plant_flowering"
+	}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:tuff_brick_stairs",
+    "count": 4
+  }
+}

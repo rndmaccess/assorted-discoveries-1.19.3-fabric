@@ -1,0 +1,8 @@
+{
+  "parent": "assorteddiscoveries:block/template_mooshroom_plush",
+  "textures": {
+    "body": "block/brown_wool",
+    "spot": "block/terracotta",
+    "horns": "block/terracotta"
+  }
+}

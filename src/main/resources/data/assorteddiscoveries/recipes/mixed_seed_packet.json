@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PSP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "tag": "assorteddiscoveries:seeds"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:mixed_seed_packet"
+  }
+}

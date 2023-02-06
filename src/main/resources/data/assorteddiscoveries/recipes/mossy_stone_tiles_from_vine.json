@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "assorteddiscoveries:stone_tiles"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:mossy_stone_tiles"
+  }
+}

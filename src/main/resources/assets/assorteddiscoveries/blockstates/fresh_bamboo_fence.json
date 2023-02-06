@@ -1,0 +1,96 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_post1"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_post2"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_post3"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_post4"
+        }
+      ]
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": [
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_north4"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_north3"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_north2"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_north1"
+        }
+      ]
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": [
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_east3"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_east2"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_east4"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_east1"
+        }
+      ]
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": [
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_south3"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_south1"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_south4"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_south2"
+        }
+      ]
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": [
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_west3"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_west2"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_west1"
+        },
+        {
+          "model": "assorteddiscoveries:block/fresh_bamboo_fence_side_west4"
+        }
+      ]
+    }
+  ]
+}

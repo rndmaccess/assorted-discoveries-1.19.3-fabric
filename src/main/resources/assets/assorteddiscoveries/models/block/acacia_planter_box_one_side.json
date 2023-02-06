@@ -1,0 +1,7 @@
+{
+  "parent": "assorteddiscoveries:block/template_planter_box_one_side",
+  "textures": {
+    "material": "block/acacia_planks",
+    "soil": "block/farmland_moist"
+  }
+}

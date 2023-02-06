@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "assorteddiscoveries:block/purple_wall_torch"
+    },
+    "facing=north": {
+      "model": "assorteddiscoveries:block/purple_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "assorteddiscoveries:block/purple_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "assorteddiscoveries:block/purple_wall_torch",
+      "y": 180
+    }
+  }
+}

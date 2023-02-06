@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,puffed=0": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_0"
+    },
+    "facing=north,puffed=1": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_1"
+    },
+    "facing=north,puffed=2": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_2"
+    },
+    "facing=south,puffed=0": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_0",
+      "y": 180
+    },
+    "facing=south,puffed=1": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_1",
+      "y": 180
+    },
+    "facing=south,puffed=2": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_2",
+      "y": 180
+    },
+    "facing=west,puffed=0": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_0",
+      "y": 270
+    },
+    "facing=west,puffed=1": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_1",
+      "y": 270
+    },
+    "facing=west,puffed=2": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_2",
+      "y": 270
+    },
+    "facing=east,puffed=0": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_0",
+      "y": 90
+    },
+    "facing=east,puffed=1": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_1",
+      "y": 90
+    },
+    "facing=east,puffed=2": {
+      "model": "assorteddiscoveries:block/pufferfish_plush_puffed_2",
+      "y": 90
+    }
+  }
+}

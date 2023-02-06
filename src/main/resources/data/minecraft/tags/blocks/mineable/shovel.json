@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "assorteddiscoveries:dirt_slab",
+    "assorteddiscoveries:grass_slab",
+    "assorteddiscoveries:dirt_path_slab",
+    "assorteddiscoveries:coarse_dirt_slab",
+    "assorteddiscoveries:snow_bricks",
+    "assorteddiscoveries:snow_brick_stairs",
+    "assorteddiscoveries:snow_brick_slab",
+    "assorteddiscoveries:snow_brick_wall",
+    "assorteddiscoveries:maroon_concrete_powder",
+    "assorteddiscoveries:packed_snow",
+    "assorteddiscoveries:packed_snow_stairs",
+    "assorteddiscoveries:packed_snow_slab",
+    "assorteddiscoveries:packed_snow_wall"
+  ]
+}

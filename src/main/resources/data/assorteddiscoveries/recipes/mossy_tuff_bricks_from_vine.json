@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "assorteddiscoveries:tuff_bricks"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:mossy_tuff_bricks"
+  }
+}

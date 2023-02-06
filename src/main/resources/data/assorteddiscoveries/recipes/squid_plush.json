@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "squid_plush",
+  "pattern": [
+    "BBB",
+    "bIb",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "b": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:squid_plush"
+  }
+}

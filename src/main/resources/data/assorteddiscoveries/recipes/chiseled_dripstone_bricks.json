@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:dripstone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:chiseled_dripstone_bricks"
+  }
+}

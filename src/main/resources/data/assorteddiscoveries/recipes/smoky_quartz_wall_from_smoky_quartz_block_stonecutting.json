@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:smoky_quartz_block"
+  },
+  "result": "assorteddiscoveries:smoky_quartz_wall",
+  "count": 1
+}

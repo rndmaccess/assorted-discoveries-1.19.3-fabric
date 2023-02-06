@@ -1,0 +1,8 @@
+{
+  "parent": "assorteddiscoveries:block/template_planter_box_three_sides",
+  "textures": {
+    "material": "block/crimson_planks",
+    "log": "block/crimson_stem",
+    "soil": "block/soul_soil"
+  }
+}

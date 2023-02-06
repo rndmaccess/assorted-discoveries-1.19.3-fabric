@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "assorteddiscoveries:nether_smoky_quartz_ore"
+  },
+  "result": "assorteddiscoveries:smoky_quartz",
+  "experience": 0.2,
+  "cookingtime": 200
+}

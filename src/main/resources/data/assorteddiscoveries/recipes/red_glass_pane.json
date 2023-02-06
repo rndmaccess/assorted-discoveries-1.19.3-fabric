@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glass_pane",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:red_glass"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:red_glass_pane",
+    "count": 16
+  }
+}

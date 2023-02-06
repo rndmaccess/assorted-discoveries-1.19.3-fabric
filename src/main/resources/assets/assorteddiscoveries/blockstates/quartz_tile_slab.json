@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assorteddiscoveries:block/quartz_tile_slab"
+    },
+    "type=top": {
+      "model": "assorteddiscoveries:block/quartz_tile_slab_top"
+    },
+    "type=double": {
+      "model": "assorteddiscoveries:block/quartz_tiles"
+    }
+  }
+}

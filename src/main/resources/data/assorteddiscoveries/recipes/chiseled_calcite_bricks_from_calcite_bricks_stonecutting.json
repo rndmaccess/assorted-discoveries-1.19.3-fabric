@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:calcite_bricks"
+  },
+  "result": "assorteddiscoveries:chiseled_calcite_bricks",
+  "count": 1
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rabbit_plush",
+  "pattern": [
+    "WWB",
+    "GIG",
+    "BWW"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "G": {
+      "item": "minecraft:gray_wool"
+    },
+    "I": {
+      "item": "minecraft:rabbit"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:white_splotched_rabbit_plush"
+  }
+}

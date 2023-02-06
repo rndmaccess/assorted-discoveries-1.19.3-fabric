@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 452824287,
+    "separation": 4,
+    "spacing": 27
+  },
+  "structures": [
+    {
+      "structure": "assorteddiscoveries:nether_cabin_crimson_forest",
+      "weight": 1
+    },
+    {
+      "structure": "assorteddiscoveries:nether_cabin_warped_forest",
+      "weight": 1
+    }
+  ]
+}

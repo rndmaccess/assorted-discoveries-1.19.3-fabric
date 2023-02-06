@@ -1,0 +1,24 @@
+{
+  "name": "assorteddiscoveries:cabin/taiga/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "assorteddiscoveries:cabin/common/decorations/fire_pits/spruce_fire_pit",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "assorteddiscoveries:cabin/common/decorations/log_piles/spruce_log_pile",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:warped_vegetation"
+    },
+    {
+      "item": "minecraft:polished_blackstone_bricks"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:twisted_polished_blackstone_bricks"
+  }
+}

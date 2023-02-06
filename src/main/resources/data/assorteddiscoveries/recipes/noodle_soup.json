@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "assorteddiscoveries:noodles"
+    },
+    {
+      "item": "assorteddiscoveries:garlic"
+    },
+    {
+      "item": "assorteddiscoveries:green_onion"
+    },
+    {
+      "item": "assorteddiscoveries:bok_choy"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:noodle_soup"
+  }
+}

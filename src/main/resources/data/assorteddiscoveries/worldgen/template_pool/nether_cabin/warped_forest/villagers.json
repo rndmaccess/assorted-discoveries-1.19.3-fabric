@@ -1,0 +1,15 @@
+{
+  "name": "assorteddiscoveries:nether_cabin/warped_forest/villagers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "assorteddiscoveries:nether_cabin/warped_forest/villagers/warped_forest_unemployed",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

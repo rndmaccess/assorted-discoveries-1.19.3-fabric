@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "GSG",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lime_wool"
+    },
+    "G": {
+      "item": "minecraft:green_wool"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:slime_plush"
+  }
+}

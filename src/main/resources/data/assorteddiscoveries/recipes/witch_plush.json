@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "WOW",
+    "PGP"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "W": {
+      "item": "minecraft:white_terracotta"
+    },
+    "O": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "P": {
+      "item": "minecraft:purple_wool"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:witch_plush"
+  }
+}

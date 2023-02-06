@@ -1,0 +1,7 @@
+{
+  "parent": "assorteddiscoveries:block/template_planter_box_two_sides",
+  "textures": {
+    "material": "block/oak_planks",
+    "soil": "block/farmland_moist"
+  }
+}

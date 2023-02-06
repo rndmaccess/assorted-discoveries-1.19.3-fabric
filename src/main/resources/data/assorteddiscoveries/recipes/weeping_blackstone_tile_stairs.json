@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:weeping_blackstone_tiles"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:weeping_blackstone_tile_stairs",
+    "count": 4
+  }
+}

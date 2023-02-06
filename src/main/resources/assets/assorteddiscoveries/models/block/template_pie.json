@@ -1,0 +1,23 @@
+{
+	"__comment": "Designed by rndm_access with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "#side",
+		"bottom": "#bottom",
+		"top": "#top"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 1, 0, 1 ],
+			"to": [ 15, 6, 15 ],
+			"faces": {
+				"down": { "uv": [ 1, 1, 15, 15 ], "texture": "#bottom", "cullface": "down" },
+				"up": { "uv": [ 1, 1, 15, 15 ], "texture": "#top" },
+				"north": { "uv": [ 1, 10, 15, 16 ], "texture": "#side" },
+				"south": { "uv": [ 1, 10, 15, 16 ], "texture": "#side" },
+				"west": { "uv": [ 1, 10, 15, 16 ], "texture": "#side" },
+				"east": { "uv": [ 1, 10, 15, 16 ], "texture": "#side" }
+			}
+		}
+	]
+}

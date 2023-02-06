@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:crimson_vegetation"
+    },
+    {
+      "item": "assorteddiscoveries:blackstone_tiles"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:weeping_blackstone_tiles"
+  }
+}

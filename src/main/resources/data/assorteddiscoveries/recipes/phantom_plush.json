@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "LML",
+    "BBB"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "L": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:phantom_plush"
+  }
+}

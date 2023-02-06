@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:weeping_polished_blackstone_bricks"
+  },
+  "result": "assorteddiscoveries:weeping_polished_blackstone_brick_wall",
+  "count": 1
+}

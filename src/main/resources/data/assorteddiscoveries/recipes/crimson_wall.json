@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_wall",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:natural_crimson_stems"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:crimson_wall",
+    "count": 6
+  }
+}

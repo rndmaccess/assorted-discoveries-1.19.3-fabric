@@ -1,0 +1,66 @@
+{
+	"__comment": "Designed by Rcarmstrong20 with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#petal",
+		"flower": "#petal",
+		"base": "minecraft:block/spore_blossom_base"
+	},
+	"elements": [
+		{
+			"__comment": "Base",
+			"from": [ 1, 15.9, 1 ],
+			"to": [ 15, 15.901, 15 ],
+			"shade": false,
+			"faces": {
+				"down": { "uv": [ 1, 1, 15, 15 ], "texture": "#base" },
+				"up": { "uv": [ 1, 1, 15, 15 ], "texture": "#base" }
+			}
+		},
+		{
+			"__comment": "EastPetal",
+			"from": [ 8, 15.7, 0 ],
+			"to": [ 24, 15.701, 16 ],
+			"rotation": { "origin": [ 8, 16, 0 ], "axis": "z", "angle": -22.5 },
+			"shade": false,
+			"faces": {
+				"down": { "uv": [ 0, 16, 16, 0 ], "texture": "#flower", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#flower", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "WestPetal",
+			"from": [ -8, 15.7, 0 ],
+			"to": [ 8, 15.701, 16 ],
+			"rotation": { "origin": [ 8, 16, 0 ], "axis": "z", "angle": 22.5 },
+			"shade": false,
+			"faces": {
+				"down": { "uv": [ 0, 16, 16, 0 ], "texture": "#flower", "rotation": 90 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#flower", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "NorthPetal",
+			"from": [ 0, 15.7, 8 ],
+			"to": [ 16, 15.701, 24 ],
+			"rotation": { "origin": [ 0, 16, 8 ], "axis": "x", "angle": 22.5 },
+			"shade": false,
+			"faces": {
+				"down": { "uv": [ 16, 0, 0, 16 ], "texture": "#flower" },
+				"up": { "uv": [ 16, 16, 0, 0 ], "texture": "#flower" }
+			}
+		},
+		{
+			"__comment": "SouthPetal",
+			"from": [ 0, 15.7, -8 ],
+			"to": [ 16, 15.701, 8 ],
+			"rotation": { "origin": [ 0, 16, 8 ], "axis": "x", "angle": -22.5 },
+			"shade": false,
+			"faces": {
+				"down": { "uv": [ 0, 16, 16, 0 ], "texture": "#flower" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#flower" }
+			}
+		}
+	]
+}

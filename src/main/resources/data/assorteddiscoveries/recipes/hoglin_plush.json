@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "WPW",
+	"TTT"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "T": {
+      "item": "minecraft:terracotta"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:hoglin_plush"
+  }
+}

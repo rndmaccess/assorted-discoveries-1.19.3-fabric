@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "assorteddiscoveries:white_campfire",
+    "assorteddiscoveries:orange_campfire",
+    "assorteddiscoveries:magenta_campfire",
+    "assorteddiscoveries:light_blue_campfire",
+    "assorteddiscoveries:yellow_campfire",
+    "assorteddiscoveries:lime_campfire",
+    "assorteddiscoveries:pink_campfire",
+    "assorteddiscoveries:gray_campfire",
+    "assorteddiscoveries:light_gray_campfire",
+    "assorteddiscoveries:cyan_campfire",
+    "assorteddiscoveries:purple_campfire",
+    "assorteddiscoveries:blue_campfire",
+    "assorteddiscoveries:brown_campfire",
+    "assorteddiscoveries:green_campfire",
+    "assorteddiscoveries:red_campfire",
+    "assorteddiscoveries:black_campfire",
+    "assorteddiscoveries:maroon_campfire"
+  ]
+}

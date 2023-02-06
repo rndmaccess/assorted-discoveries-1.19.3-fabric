@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "WIW",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "I": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:vex_plush"
+  }
+}

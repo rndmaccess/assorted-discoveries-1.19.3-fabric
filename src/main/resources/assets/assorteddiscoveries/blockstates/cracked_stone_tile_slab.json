@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assorteddiscoveries:block/cracked_stone_tile_slab"
+    },
+    "type=top": {
+      "model": "assorteddiscoveries:block/cracked_stone_tile_slab_top"
+    },
+    "type=double": {
+      "model": "assorteddiscoveries:block/cracked_stone_tiles"
+    }
+  }
+}

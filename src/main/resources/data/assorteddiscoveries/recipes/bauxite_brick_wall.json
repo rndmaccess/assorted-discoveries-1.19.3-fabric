@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:bauxite_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:bauxite_brick_wall",
+    "count": 6
+  }
+}

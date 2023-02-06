@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:stripped_spruce_wall_from_stripped_spruce_logs_woodcutting"
+    ]
+  },
+  "criteria": {
+    "has_stripped_spruce_logs": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:stripped_spruce_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:stripped_spruce_wall_from_stripped_spruce_logs_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_spruce_logs",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorteddiscoveries:weeping_polished_blackstone_bricks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:weeping_polished_blackstone_brick_stairs",
+    "count": 4
+  }
+}

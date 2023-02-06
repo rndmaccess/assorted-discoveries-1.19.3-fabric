@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,stack_size=1": {
+      "model": "assorteddiscoveries:block/one_magma_cube_plush"
+    },
+    "facing=north,stack_size=2": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes"
+    },
+    "facing=north,stack_size=3,half=lower": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes"
+    },
+    "facing=north,stack_size=3,half=upper": {
+      "model": "assorteddiscoveries:block/three_magma_cube_plushes"
+    },
+    "facing=south,stack_size=1": {
+      "model": "assorteddiscoveries:block/one_magma_cube_plush",
+      "y": 180
+    },
+    "facing=south,stack_size=2": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes",
+      "y": 180
+    },
+    "facing=south,stack_size=3,half=lower": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes",
+      "y": 180
+    },
+    "facing=south,stack_size=3,half=upper": {
+      "model": "assorteddiscoveries:block/three_magma_cube_plushes",
+      "y": 180
+    },
+    "facing=west,stack_size=1": {
+      "model": "assorteddiscoveries:block/one_magma_cube_plush",
+      "y": 270
+    },
+    "facing=west,stack_size=2": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes",
+      "y": 270
+    },
+    "facing=west,stack_size=3,half=lower": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes",
+      "y": 270
+    },
+    "facing=west,stack_size=3,half=upper": {
+      "model": "assorteddiscoveries:block/three_magma_cube_plushes",
+      "y": 270
+    },
+    "facing=east,stack_size=1": {
+      "model": "assorteddiscoveries:block/one_magma_cube_plush",
+      "y": 90
+    },
+    "facing=east,stack_size=2": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes",
+      "y": 90
+    },
+    "facing=east,stack_size=3,half=lower": {
+      "model": "assorteddiscoveries:block/two_magma_cube_plushes",
+      "y": 90
+    },
+    "facing=east,stack_size=3,half=upper": {
+      "model": "assorteddiscoveries:block/three_magma_cube_plushes",
+      "y": 90
+    }
+  }
+}

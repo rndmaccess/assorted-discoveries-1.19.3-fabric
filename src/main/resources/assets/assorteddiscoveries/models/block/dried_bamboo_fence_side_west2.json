@@ -1,0 +1,7 @@
+{
+  "parent": "assorteddiscoveries:block/template_bamboo_fence_side_west2",
+  "textures": {
+    "side": "assorteddiscoveries:block/dried_bamboo_fence_side",
+	"top": "assorteddiscoveries:block/dried_bamboo_fence_top"
+  }
+}

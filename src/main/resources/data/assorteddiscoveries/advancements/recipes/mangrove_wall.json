@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:mangrove_wall"
+    ]
+  },
+  "criteria": {
+    "has_natural_mangrove_logs": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:natural_mangrove_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:mangrove_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_natural_mangrove_logs",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:crimson_wall_from_natural_crimson_stems_woodcutting"
+    ]
+  },
+  "criteria": {
+    "has_natural_crimson_stems": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:natural_crimson_stems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:crimson_wall_from_natural_crimson_stems_woodcutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_natural_crimson_stems",
+      "has_the_recipe"
+    ]
+  ]
+}

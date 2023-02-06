@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:mossy_bauxite_bricks"
+  },
+  "result": "assorteddiscoveries:mossy_bauxite_brick_slab",
+  "count": 2
+}

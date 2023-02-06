@@ -1,0 +1,72 @@
+{
+  "variants": {
+    "east=false,north=false,south=false,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box"
+    },
+    "east=true,north=true,south=true,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_middle"
+    },
+    "east=true,north=true,south=false,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_one_side"
+    },
+    "east=true,north=false,south=true,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_one_side",
+      "y": 180,
+      "uvlock": true
+    },
+    "east=false,north=true,south=true,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_one_side",
+      "y": 270,
+      "uvlock": true
+    },
+    "east=true,north=true,south=true,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_one_side",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=true,north=true,south=false,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_corner"
+    },
+    "east=false,north=false,south=true,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_corner",
+      "y": 180,
+      "uvlock": true
+    },
+    "east=false,north=true,south=false,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_corner",
+      "y": 270,
+      "uvlock": true
+    },
+    "east=true,north=false,south=true,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_corner",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=false,north=true,south=false,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_three_sides"
+    },
+    "east=false,north=false,south=true,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_three_sides",
+      "y": 180,
+      "uvlock": true
+    },
+    "east=false,north=false,south=false,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_three_sides",
+      "y": 270,
+      "uvlock": true
+    },
+    "east=true,north=false,south=false,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_three_sides",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=false,north=true,south=true,west=false": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_two_sides"
+    },
+    "east=true,north=false,south=false,west=true": {
+      "model": "assorteddiscoveries:block/mangrove_planter_box_two_sides",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

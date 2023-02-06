@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_lantern",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:lantern"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:purple_lantern"
+  }
+}

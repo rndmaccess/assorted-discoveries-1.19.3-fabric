@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "assorteddiscoveries:block/blood_kelp_lantern",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "assorteddiscoveries:block/blood_kelp_lantern"
+    },
+    "axis=z": {
+      "model": "assorteddiscoveries:block/blood_kelp_lantern",
+      "x": 90
+    }
+  }
+}

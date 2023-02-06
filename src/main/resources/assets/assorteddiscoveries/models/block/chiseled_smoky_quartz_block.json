@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "assorteddiscoveries:block/chiseled_smoky_quartz_block",
+    "end": "assorteddiscoveries:block/chiseled_smoky_quartz_block_top"
+  }
+}

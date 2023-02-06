@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "fire": "assorteddiscoveries:block/pink_campfire_fire",
+    "lit_log": "assorteddiscoveries:block/pink_campfire_log_lit"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "assorteddiscoveries:block/template_strider_plush",
+  "textures": {
+    "body": "block/red_wool"
+  }
+}

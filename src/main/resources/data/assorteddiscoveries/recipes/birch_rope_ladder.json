@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladder",
+  "pattern": [
+    "X X",
+    "###",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:birch_rope_ladder",
+    "count": 3
+  }
+}

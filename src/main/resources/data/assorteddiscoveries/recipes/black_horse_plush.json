@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "horse_plush",
+  "pattern": [
+    "BBB",
+    "GIG",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:gray_wool"
+    },
+    "I": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:black_horse_plush"
+  }
+}

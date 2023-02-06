@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sheep_plush",
+  "pattern": [
+    "OOO",
+    "BIB",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:orange_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:orange_sheep_plush"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assorteddiscoveries:block/dirt_path_slab"
+    },
+    "type=top": {
+      "model": "assorteddiscoveries:block/dirt_path_slab_top"
+    },
+    "type=double": {
+      "model": "minecraft:block/dirt_path"
+    }
+  }
+}

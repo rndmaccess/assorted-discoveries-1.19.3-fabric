@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "assorteddiscoveries:block/magenta_candle_chocolate_cake"
+    },
+    "lit=true": {
+      "model": "assorteddiscoveries:block/magenta_candle_chocolate_cake_lit"
+    }
+  }
+}

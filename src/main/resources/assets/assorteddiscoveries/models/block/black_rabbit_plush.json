@@ -1,0 +1,9 @@
+{
+  "parent": "assorteddiscoveries:block/template_rabbit_plush",
+  "textures": {
+    "body": "block/black_wool",
+    "nose": "block/pink_wool",
+    "eyes": "block/gray_wool",
+    "ears": "block/gray_wool"
+  }
+}

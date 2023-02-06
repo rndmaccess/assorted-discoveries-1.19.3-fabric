@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "assorteddiscoveries:witchs_cradle_branch"
+    },
+    {
+      "item": "assorteddiscoveries:witchs_cradle_branch"
+    },
+    {
+      "item": "assorteddiscoveries:witchs_cradle_branch"
+    },
+    {
+      "item": "assorteddiscoveries:witchs_cradle_branch"
+    },
+    {
+      "item": "assorteddiscoveries:witchs_cradle_branch"
+    },
+    {
+      "item": "assorteddiscoveries:witchs_cradle_branch"
+    }
+  ],
+  "result": {
+    "item": "assorteddiscoveries:witchs_cradle_soup"
+  }
+}

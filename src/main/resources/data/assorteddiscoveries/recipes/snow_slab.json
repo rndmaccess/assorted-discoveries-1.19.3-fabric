@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:snow_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "assorteddiscoveries:snow_slab",
+    "count": 4
+  }
+}

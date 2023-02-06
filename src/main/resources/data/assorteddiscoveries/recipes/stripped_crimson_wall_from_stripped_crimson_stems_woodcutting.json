@@ -1,0 +1,8 @@
+{
+  "type": "assorteddiscoveries:woodcutting",
+  "ingredient": {
+    "tag": "c:stripped_crimson_stems"
+  },
+  "result": "assorteddiscoveries:stripped_crimson_wall",
+  "count": 1
+}

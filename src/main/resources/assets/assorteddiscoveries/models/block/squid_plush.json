@@ -1,0 +1,7 @@
+{
+  "parent": "assorteddiscoveries:block/template_squid_plush",
+  "textures": {
+    "body": "block/blue_wool",
+	"eyes": "block/black_wool"
+  }
+}

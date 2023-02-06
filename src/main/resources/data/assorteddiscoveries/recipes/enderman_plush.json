@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "MPM",
+    "WGW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:black_wool"
+    },
+	"M": {
+	  "item": "minecraft:magenta_wool"
+	},
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "G": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:enderman_plush"
+  }
+}

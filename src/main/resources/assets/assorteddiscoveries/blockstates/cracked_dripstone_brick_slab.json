@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "assorteddiscoveries:block/cracked_dripstone_brick_slab"
+    },
+    "type=top": {
+      "model": "assorteddiscoveries:block/cracked_dripstone_brick_slab_top"
+    },
+    "type=double": {
+      "model": "assorteddiscoveries:block/cracked_dripstone_bricks"
+    }
+  }
+}

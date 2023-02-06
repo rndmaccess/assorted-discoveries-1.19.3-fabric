@@ -1,0 +1,8 @@
+{
+  "type": "assorteddiscoveries:woodcutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
+  },
+  "result": "assorteddiscoveries:mangrove_rope_ladder",
+  "count": 1
+}

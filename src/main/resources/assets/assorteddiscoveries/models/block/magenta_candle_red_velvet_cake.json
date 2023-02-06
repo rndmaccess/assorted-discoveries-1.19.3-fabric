@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/template_cake_with_candle",
+  "textures": {
+    "candle": "minecraft:block/magenta_candle",
+    "particle": "assorteddiscoveries:block/red_velvet_cake_side",
+    "bottom": "assorteddiscoveries:block/red_velvet_cake_bottom",
+    "side": "assorteddiscoveries:block/red_velvet_cake_side",
+    "top": "assorteddiscoveries:block/red_velvet_cake_top"
+  }
+}

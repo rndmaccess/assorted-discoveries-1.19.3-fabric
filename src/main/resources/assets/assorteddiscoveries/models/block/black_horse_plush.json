@@ -1,0 +1,9 @@
+{
+  "parent": "assorteddiscoveries:block/template_horse_plush",
+  "textures": {
+    "body": "block/black_wool",
+    "eyes": "block/gray_wool",
+    "hooves": "block/gray_wool",
+    "tail": "block/light_gray_wool"
+  }
+}

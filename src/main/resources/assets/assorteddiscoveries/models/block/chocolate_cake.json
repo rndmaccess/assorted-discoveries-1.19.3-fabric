@@ -1,0 +1,8 @@
+{
+  "parent": "assorteddiscoveries:block/template_cake",
+  "textures": {
+    "side": "assorteddiscoveries:block/chocolate_cake_side",
+    "bottom": "assorteddiscoveries:block/chocolate_cake_bottom",
+    "top": "assorteddiscoveries:block/chocolate_cake_top"
+  }
+}

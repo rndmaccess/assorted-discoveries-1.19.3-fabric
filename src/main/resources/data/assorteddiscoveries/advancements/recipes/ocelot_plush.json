@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "assorteddiscoveries:ocelot_plush"
+    ]
+  },
+  "criteria": {
+    "has_raw_fish": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:raw_fish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "assorteddiscoveries:ocelot_plush"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_fish",
+      "has_the_recipe"
+    ]
+  ]
+}

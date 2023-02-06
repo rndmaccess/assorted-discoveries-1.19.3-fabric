@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "assorteddiscoveries:smoky_quartz_block"
+  },
+  "result": "assorteddiscoveries:chiseled_smoky_quartz_block",
+  "count": 1
+}

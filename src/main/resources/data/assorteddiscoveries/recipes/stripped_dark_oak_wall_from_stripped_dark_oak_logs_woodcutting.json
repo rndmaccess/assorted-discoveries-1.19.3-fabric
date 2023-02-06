@@ -1,0 +1,8 @@
+{
+  "type": "assorteddiscoveries:woodcutting",
+  "ingredient": {
+    "tag": "c:stripped_dark_oak_logs"
+  },
+  "result": "assorteddiscoveries:stripped_dark_oak_wall",
+  "count": 1
+}

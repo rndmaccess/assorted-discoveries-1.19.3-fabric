@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "assorteddiscoveries:block/smoky_quartz_block_bottom",
+    "top": "assorteddiscoveries:block/smoky_quartz_block_bottom",
+    "side": "assorteddiscoveries:block/smoky_quartz_block_bottom"
+  }
+}

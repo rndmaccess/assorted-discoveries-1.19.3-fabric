@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,part=head": {
+      "model": "assorteddiscoveries:block/sleeping_bag_head",
+      "y": 180
+    },
+    "facing=north,part=foot": {
+      "model": "assorteddiscoveries:block/sleeping_bag_foot"
+    },
+    "facing=south,part=head": {
+      "model": "assorteddiscoveries:block/sleeping_bag_head"
+    },
+    "facing=south,part=foot": {
+      "model": "assorteddiscoveries:block/sleeping_bag_foot",
+      "y": 180
+    },
+    "facing=west,part=head": {
+      "model": "assorteddiscoveries:block/sleeping_bag_head",
+      "y": 90
+    },
+    "facing=west,part=foot": {
+      "model": "assorteddiscoveries:block/sleeping_bag_foot",
+      "y": 270
+    },
+    "facing=east,part=head": {
+      "model": "assorteddiscoveries:block/sleeping_bag_head",
+      "y": 270
+    },
+    "facing=east,part=foot": {
+      "model": "assorteddiscoveries:block/sleeping_bag_foot",
+      "y": 90
+    }
+  }
+}

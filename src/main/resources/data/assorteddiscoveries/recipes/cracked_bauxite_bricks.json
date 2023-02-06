@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "assorteddiscoveries:bauxite_bricks"
+  },
+  "result": "assorteddiscoveries:cracked_bauxite_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

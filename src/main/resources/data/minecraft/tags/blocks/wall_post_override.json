@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "assorteddiscoveries:white_torch",
+    "assorteddiscoveries:orange_torch",
+    "assorteddiscoveries:magenta_torch",
+    "assorteddiscoveries:light_blue_torch",
+    "assorteddiscoveries:yellow_torch",
+    "assorteddiscoveries:lime_torch",
+    "assorteddiscoveries:pink_torch",
+    "assorteddiscoveries:gray_torch",
+    "assorteddiscoveries:light_gray_torch",
+    "assorteddiscoveries:cyan_torch",
+    "assorteddiscoveries:purple_torch",
+    "assorteddiscoveries:blue_torch",
+    "assorteddiscoveries:brown_torch",
+    "assorteddiscoveries:green_torch",
+    "assorteddiscoveries:red_torch",
+    "assorteddiscoveries:black_torch",
+    "assorteddiscoveries:maroon_torch"
+  ]
+}

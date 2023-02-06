@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "assorteddiscoveries:block/bok_choy_stage1"
+  }
+}

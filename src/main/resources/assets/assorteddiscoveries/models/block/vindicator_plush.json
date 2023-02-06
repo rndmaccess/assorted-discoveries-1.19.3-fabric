@@ -1,0 +1,6 @@
+{
+  "parent": "assorteddiscoveries:block/template_illager_plush",
+  "textures": {
+    "shirt": "block/gray_wool"
+  }
+}

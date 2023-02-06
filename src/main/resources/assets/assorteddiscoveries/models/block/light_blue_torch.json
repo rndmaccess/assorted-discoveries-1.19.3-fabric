@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "assorteddiscoveries:block/light_blue_torch"
+  }
+}

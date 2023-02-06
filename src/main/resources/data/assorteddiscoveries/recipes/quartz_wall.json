@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "quartz_wall",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:quartz_wall",
+    "count": 6
+  }
+}

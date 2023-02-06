@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "assorteddiscoveries:block/weeping_polished_blackstone_bricks",
+    "top": "assorteddiscoveries:block/weeping_polished_blackstone_bricks",
+    "side": "assorteddiscoveries:block/weeping_polished_blackstone_bricks"
+  }
+}

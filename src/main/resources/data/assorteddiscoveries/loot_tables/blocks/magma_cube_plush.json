@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "assorteddiscoveries:magma_cube_plush",
+                  "properties": {
+                    "stack_size": "2"
+                  }
+                }
+              ],
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "assorteddiscoveries:magma_cube_plush",
+                  "properties": {
+                    "stack_size": "3"
+                  }
+                }
+              ],
+              "count": 3
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "assorteddiscoveries:magma_cube_plush",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "assorteddiscoveries:magma_cube_plush"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
