@@ -480,7 +480,7 @@ public class ADBlocks {
     public static final Block MAROON_CONCRETE_POWDER = new ConcretePowderBlock(MAROON_CONCRETE, AbstractBlock.Settings.of(
             Material.AGGREGATE, MapColor.DARK_RED).strength(0.5F).sounds(BlockSoundGroup.SAND));
     public static final Block MAROON_CANDLE_CAKE = new CandleCakeBlock(MAROON_CANDLE, AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));
-    public static final Block WEEPING_HEART = new ADWeepingHeartBlock(AbstractBlock.Settings.of(Material.PLANT)
+    public static final Block WEEPING_HEART = new ADWeepingHeartBlock(AbstractBlock.Settings.of(Material.PLANT).ticksRandomly()
             .breakInstantly().noCollision().sounds(BlockSoundGroup.SPORE_BLOSSOM).luminance((state) -> 10));
     public static final Block MAROON_CANDLE_CHOCOLATE_CAKE = new ADCandleCakeBlock(CHOCOLATE_CAKE, MAROON_CANDLE,
             AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));

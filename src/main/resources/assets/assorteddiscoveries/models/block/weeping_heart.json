@@ -1,6 +1,0 @@
-{
-  "parent": "assorteddiscoveries:block/template_weeping_heart",
-  "textures": {
-	"petal": "assorteddiscoveries:block/weeping_heart"
-  }
-}

@@ -1,46 +1,72 @@
 package rndm_access.assorteddiscoveries.common.block;
 
 import net.minecraft.block.*;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.IntProperty;
+import net.minecraft.state.property.Properties;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
-import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import rndm_access.assorteddiscoveries.common.core.ADItems;
 import rndm_access.assorteddiscoveries.common.core.ADParticleTypes;
 import rndm_access.assorteddiscoveries.common.core.CBlockTags;
 
 public class ADWeepingHeartBlock extends Block implements Fertilizable {
-    private static final VoxelShape SHAPE = Block.createCuboidShape(2.0, 13.0, 2.0, 14.0, 16.0, 14.0);
+    public static final IntProperty AGE = Properties.AGE_2;
 
     public ADWeepingHeartBlock(Settings settings) {
         super(settings);
+        this.setDefaultState(this.stateManager.getDefaultState().with(AGE, 0));
+    }
+
+    @Override
+    public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {
+        return ADItems.WEEPING_HEART_SEEDS.getDefaultStack();
     }
 
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
-        int xOrigin = pos.getX();
-        int yOrigin = pos.getY();
-        int zOrigin = pos.getZ();
-        double fallingX = xOrigin + random.nextDouble();
-        double fallingY = yOrigin + 0.7D;
-        double fallingZ = zOrigin + random.nextDouble();
+        int x = pos.getX();
+        int y = pos.getY();
+        int z = pos.getZ();
 
-        // Play dripping particles under the plant.
+        this.playNectarDripParticles(world, random, x, y, z);
+        this.playAirNectarParticles(world, state, random, x, y, z);
+    }
+
+    private void playNectarDripParticles(World world, Random random, int x, int y, int z) {
+        double fallingX = x + random.nextDouble();
+        double fallingY = y + 0.7D;
+        double fallingZ = z + random.nextDouble();
+
         world.addParticle(ADParticleTypes.FALLING_WEEPING_HEART_NECTAR, fallingX, fallingY, fallingZ,
                 0.0D, 0.0D, 0.0D);
-        BlockPos.Mutable mutable = new BlockPos.Mutable();
+    }
 
-        // Play air particles that float around the plant.
-        for(int l = 0; l < 14; ++l) {
-            int floatingXOrigin = xOrigin + MathHelper.nextInt(random, -10, 10);
-            int floatingYOrigin = yOrigin - random.nextInt(10);
-            int floatingZOrigin = zOrigin + MathHelper.nextInt(random, -10, 10);
+    private void playAirNectarParticles(World world, BlockState state, Random random, int x, int y, int z) {
+        BlockPos.Mutable mutable = new BlockPos.Mutable();
+        int floatingCount = getParticleAmount(state);
+        int floatingArea = getParticleArea(state);
+
+        for(int l = 0; l < floatingCount; ++l) {
+            int floatingXOrigin = x + MathHelper.nextInt(random, -floatingArea, floatingArea);
+            int floatingYOrigin = y - random.nextInt(floatingArea);
+            int floatingZOrigin = z + MathHelper.nextInt(random, -floatingArea, floatingArea);
 
             mutable.set(floatingXOrigin, floatingYOrigin, floatingZOrigin);
             BlockState blockState = world.getBlockState(mutable);
@@ -73,9 +99,68 @@ public class ADWeepingHeartBlock extends Block implements Fertilizable {
                 : state;
     }
 
+    @SuppressWarnings("deprecation")
+    @Override
+    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+        ItemStack heldStack = player.getStackInHand(hand);
+
+        // Fill the held bucket with nectar when the player clicks the plant.
+        if (heldStack.isOf(Items.BUCKET) && this.isMature(state)) {
+            this.fillBucketWithNectar(player, hand);
+            world.setBlockState(pos, state.with(AGE, 0));
+            return ActionResult.success(world.isClient);
+        }
+        return ActionResult.PASS;
+    }
+
+    private void fillBucketWithNectar(PlayerEntity player, Hand hand) {
+        ItemStack nectarBucket = new ItemStack(ADItems.WEEPING_HEART_NECTAR_BUCKET);
+
+        player.playSound(SoundEvents.BLOCK_BEEHIVE_DRIP, SoundCategory.BLOCKS, 1.0F, 1.0F);
+
+        if (player.isCreative()) {
+            PlayerInventory playerInventory = player.getInventory();
+            if (!playerInventory.contains(nectarBucket)) {
+                player.giveItemStack(nectarBucket);
+            }
+        } else {
+            player.getStackInHand(hand).decrement(1);
+
+            if (player.getStackInHand(hand).isEmpty()) {
+                player.setStackInHand(hand, nectarBucket);
+            } else {
+                player.giveItemStack(nectarBucket);
+            }
+        }
+    }
+
+    private int getParticleAmount(BlockState state) {
+        int i = state.get(AGE);
+
+        return (i + 1) * 5 - 1;
+    }
+
+    private int getParticleArea(BlockState state) {
+        int i = state.get(AGE);
+
+        return (i + 1) * 3 + 1;
+    }
+
+    private int getMaxAge() {
+        return 2;
+    }
+
+    private boolean isMature(BlockState state) {
+        return state.get(AGE) >= this.getMaxAge();
+    }
+
     @Override
     public boolean isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
-        return true;
+        return !this.isMature(state);
+    }
+
+    public boolean hasRandomTicks(BlockState state) {
+        return !this.isMature(state);
     }
 
     @Override
@@ -85,12 +170,22 @@ public class ADWeepingHeartBlock extends Block implements Fertilizable {
 
     @Override
     public void grow(ServerWorld world, Random random, BlockPos pos, BlockState state) {
-        dropStack(world, pos, new ItemStack(this));
+        world.setBlockState(pos, state.with(AGE, Math.min(3, state.get(AGE) + 1)), 2);
     }
 
     @SuppressWarnings("deprecation")
     @Override
-    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
+    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+        int i = state.get(AGE);
+
+        if (!this.isMature(state) && random.nextInt(5) == 0 && world.getBaseLightLevel(pos.up(), 0) >= 9) {
+            BlockState blockState = state.with(AGE, i + 1);
+            world.setBlockState(pos, blockState, 2);
+        }
+    }
+
+    @Override
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+        builder.add(AGE);
     }
 }

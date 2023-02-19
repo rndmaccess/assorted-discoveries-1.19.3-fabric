@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "assorteddiscoveries:block/weeping_heart"
+    "age=0": {
+      "model": "assorteddiscoveries:block/weeping_heart_stage0"
+    },
+    "age=1": {
+      "model": "assorteddiscoveries:block/weeping_heart_stage1"
+    },
+    "age=2": {
+      "model": "assorteddiscoveries:block/weeping_heart_stage2"
     }
   }
 }

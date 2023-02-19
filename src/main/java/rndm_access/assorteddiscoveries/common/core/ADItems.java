@@ -412,7 +412,9 @@ public class ADItems {
     public static final Item MAROON_DYE = item();
     public static final Item HOGLIN_STEW = new ADFoodContainerItem(new Item.Settings()
             .food(ADFoodComponents.HOGLIN_STEW).maxCount(1));
-    public static final Item WEEPING_HEART = blockItem(ADBlocks.WEEPING_HEART);
+    public static final Item WEEPING_HEART_NECTAR_BUCKET = new ADDrinkContainerItem(new Item.Settings()
+            .food(ADFoodComponents.WEEPING_HEART_NECTAR_BUCKET).maxCount(1).recipeRemainder(Items.BUCKET), Items.BUCKET);
+    public static final Item WEEPING_HEART_SEEDS = new AliasedBlockItem(ADBlocks.WEEPING_HEART, new Item.Settings());
     public static final Item JUNGLE_SNARE = blockItem(ADBlocks.JUNGLE_SNARE);
 
     private static Item item() {
@@ -828,7 +830,8 @@ public class ADItems {
         register("maroon_concrete_powder", MAROON_CONCRETE_POWDER);
         register("maroon_dye", MAROON_DYE);
         register("hoglin_stew", HOGLIN_STEW);
-        register("weeping_heart", WEEPING_HEART);
+        register("weeping_heart_nectar_bucket", WEEPING_HEART_NECTAR_BUCKET);
+        register("weeping_heart_seeds", WEEPING_HEART_SEEDS);
         register("jungle_snare", JUNGLE_SNARE);
 
         AssortedDiscoveries.LOGGER.info("Registered Items");
