@@ -8,5 +8,4 @@ public class ADProperties {
     public static final IntProperty PUFFED = IntProperty.of("puffed", 0, 2);
     public static final IntProperty LENGTH = IntProperty.of("length", 0, 16);
     public static final BooleanProperty CAN_TELEPORT = BooleanProperty.of("can_teleport");
-    public static final BooleanProperty FLOWERING = BooleanProperty.of("flowering");
 }

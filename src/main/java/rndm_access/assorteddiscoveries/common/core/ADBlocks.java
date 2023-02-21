@@ -554,8 +554,6 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));
     public static final Block BLACK_CANDLE_RED_VELVET_CAKE = new ADCandleCakeBlock(RED_VELVET_CAKE, Blocks.BLACK_CANDLE,
             AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));
-    public static final Block JUNGLE_SNARE = new ADJungleSnareHeadBlock(AbstractBlock.Settings.copy(Blocks.VINE));
-    public static final Block JUNGLE_SNARE_PLANT = new ADJungleSnareBodyBlock(AbstractBlock.Settings.copy(Blocks.VINE));
 
     private static ADBambooFenceBlock bambooFenceBlock(MapColor color) {
         return new ADBambooFenceBlock(AbstractBlock.Settings.of(Material.WOOD, color).strength(1.0F)
@@ -1039,8 +1037,6 @@ public class ADBlocks {
         register("green_candle_red_velvet_cake", GREEN_CANDLE_RED_VELVET_CAKE);
         register("red_candle_red_velvet_cake", RED_CANDLE_RED_VELVET_CAKE);
         register("black_candle_red_velvet_cake", BLACK_CANDLE_RED_VELVET_CAKE);
-        register("jungle_snare", JUNGLE_SNARE);
-        register("jungle_snare_plant", JUNGLE_SNARE_PLANT);
 
         AssortedDiscoveries.LOGGER.info("Registered blocks");
     }

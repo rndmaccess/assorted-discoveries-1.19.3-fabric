@@ -204,7 +204,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.EVOKER_PLUSH);
 					entries.add(ADItems.RAVAGER_PLUSH);
 					entries.add(ADItems.SHULKER_PLUSH);
-				})
-				.build();
+				}).build();
 	}
 }
