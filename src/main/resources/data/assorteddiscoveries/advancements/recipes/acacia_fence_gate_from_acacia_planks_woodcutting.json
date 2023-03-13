@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "assorteddiscoveries:acacia_fence_from_acacia_planks_woodcutting"
+      "assorteddiscoveries:acacia_fence_gate_from_acacia_planks_woodcutting"
     ]
   },
   "criteria": {
@@ -20,7 +20,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "assorteddiscoveries:acacia_fence_from_acacia_planks_woodcutting"
+        "recipe": "assorteddiscoveries:acacia_fence_gate_from_acacia_planks_woodcutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
