@@ -5,7 +5,6 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
-import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.GrassColors;
@@ -13,6 +12,7 @@ import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.particle.FlameParticle;
 import net.minecraft.client.particle.LavaEmberParticle;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import rndm_access.assorteddiscoveries.client.block_entity.ADDyedCampfireBlockEntityRenderer;
 import rndm_access.assorteddiscoveries.client.particle.ADFallingWeepingHeartNectarParticle;
 import rndm_access.assorteddiscoveries.client.particle.ADSporeParticle;
@@ -33,7 +33,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
     }
 
     private void registerBlockEntityRenderers() {
-        BlockEntityRendererRegistry.register(ADBlockEntityTypes.DYED_CAMPFIRE, ADDyedCampfireBlockEntityRenderer::new);
+        BlockEntityRendererFactories.register(ADBlockEntityTypes.DYED_CAMPFIRE, ADDyedCampfireBlockEntityRenderer::new);
     }
 
     private void registerBlockColorProviders() {
@@ -122,8 +122,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
                 ADBlocks.ENDER_GRASS, ADBlocks.ICICLE, ADBlocks.CATTAIL, ADBlocks.POTTED_PURPLE_MUSHROOM,
                 ADBlocks.BLOOD_KELP, ADBlocks.BLOOD_KELP_PLANT, ADBlocks.MANGROVE_ROPE_LADDER, ADBlocks.WEEPING_HEART,
                 ADBlocks.MAROON_CAMPFIRE, ADBlocks.MAROON_TORCH, ADBlocks.MAROON_WALL_TORCH, ADBlocks.MAROON_LANTERN,
-                ADBlocks.DRIED_BAMBOO_FENCE_GATE, ADBlocks.FRESH_BAMBOO_FENCE_GATE,
-                ADBlocks.JUNGLE_SNARE, ADBlocks.JUNGLE_SNARE_PLANT);
+                ADBlocks.DRIED_BAMBOO_FENCE_GATE, ADBlocks.FRESH_BAMBOO_FENCE_GATE);
 
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutoutMipped(),
                 ADBlocks.ENDERMAN_PLUSH, ADBlocks.GRASS_SLAB);

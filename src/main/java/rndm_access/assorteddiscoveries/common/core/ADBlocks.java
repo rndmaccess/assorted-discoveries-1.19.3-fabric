@@ -554,6 +554,7 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));
     public static final Block BLACK_CANDLE_RED_VELVET_CAKE = new ADCandleCakeBlock(RED_VELVET_CAKE, Blocks.BLACK_CANDLE,
             AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));
+    public static final Block CAMEL_PLUSH = new ADCamelPlushBlock(AbstractBlock.Settings.copy(ADBlocks.BAT_PLUSH));
 
     private static ADBambooFenceBlock bambooFenceBlock(MapColor color) {
         return new ADBambooFenceBlock(AbstractBlock.Settings.of(Material.WOOD, color).strength(1.0F)
@@ -1037,6 +1038,7 @@ public class ADBlocks {
         register("green_candle_red_velvet_cake", GREEN_CANDLE_RED_VELVET_CAKE);
         register("red_candle_red_velvet_cake", RED_CANDLE_RED_VELVET_CAKE);
         register("black_candle_red_velvet_cake", BLACK_CANDLE_RED_VELVET_CAKE);
+        register("camel_plush", CAMEL_PLUSH);
 
         AssortedDiscoveries.LOGGER.info("Registered blocks");
     }

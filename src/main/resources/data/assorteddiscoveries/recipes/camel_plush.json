@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "BIB",
+    "YYY"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "assorteddiscoveries:camel_plush"
+  }
+}
