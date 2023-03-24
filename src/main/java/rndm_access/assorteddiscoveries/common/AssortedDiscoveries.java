@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.Enchantments;
@@ -40,6 +41,7 @@ public class AssortedDiscoveries implements ModInitializer {
 		ADPaintingVariants.registerPaintingVariants();
 		ADSoundEvents.registerSoundEvents();
 		AssortedDiscoveries.registerFuel();
+		AssortedDiscoveries.registerCompostables();
 		AssortedDiscoveries.modifyLootTables();
 
 		// Entity Registries
@@ -82,6 +84,25 @@ public class AssortedDiscoveries implements ModInitializer {
 
 	private static void registerFuel() {
 		FuelRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP_BLOCK, 4000);
+	}
+
+	private static void registerCompostables() {
+		CompostingChanceRegistry.INSTANCE.add(ADItems.BLUEBERRIES, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.WITCHS_CRADLE_BRANCH, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.BLOOD_KELP_SEED_CLUSTER, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.BLOOD_KELP, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.ENDER_GRASS, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.BOK_CHOY_SEEDS, 0.3F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.WEEPING_HEART_SEEDS, 0.3F);
+
+		CompostingChanceRegistry.INSTANCE.add(ADItems.CATTAIL, 0.5F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP_BLOCK, 0.5F);
+
+		CompostingChanceRegistry.INSTANCE.add(ADItems.SNAPDRAGON, 0.65F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.GARLIC, 0.65F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.GREEN_ONION, 0.65F);
+		CompostingChanceRegistry.INSTANCE.add(ADItems.BOK_CHOY, 0.65F);
 	}
 
 	private static void modifyLootTables() {
